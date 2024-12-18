@@ -161,9 +161,9 @@ public class EnrollmentMenu extends AppCompatActivity {
 
         // Create a student enrollment object (replace with actual student data if needed)
         StudentEnrollment enrollment = new StudentEnrollment(
-                "stdId",  // Temporary student ID (replace with actual)
-                "stdName",   // Replace with actual student name
-                "stdMail", // Replace with actual student email
+                "stdId",  
+                "stdName",  
+                "stdMail", 
                 selectedSubjects,
                 subjectCredits,
                 totalCredits
