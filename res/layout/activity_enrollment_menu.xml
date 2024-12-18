@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Menu"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/subjectListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/showSummaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Summary"
+        android:backgroundTint="#487A7D"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:id="@+id/summaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enrollment Summary"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="@android:color/black"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/enrollButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll"
+        android:backgroundTint="#487A7D"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
