@@ -98,7 +98,7 @@ public class Register extends AppCompatActivity {
         user.put("stdMail", Mail);
         user.put("stdPass", Pass);
 
-        CollectionReference collections = db.collection("");
+        CollectionReference collections = db.collection("Students");
         DocumentReference doc = collections.document(Id);
 
         doc.set(user)
